@@ -242,7 +242,7 @@ export default function App() {
   };
 
   return (
-    <div className="smooth-scroll relative min-h-screen">
+    <div className="smooth-scroll relative min-h-screen overflow-x-hidden">
       {/* background texture */}
       <div className="noise-overlay" />
       <Particles />
